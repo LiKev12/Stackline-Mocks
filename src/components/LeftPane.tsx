@@ -10,13 +10,14 @@ export interface ILeftPaneProps {
 const LeftPane: React.FC<ILeftPaneProps> = (props: ILeftPaneProps) => {
     return (
         <Box
-            style={{
+            sx={{
                 height: '100vh',
                 width: '300px',
                 display: 'flex',
                 paddingTop: '40px',
                 margin: '0px 40px',
                 backgroundColor: 'white',
+                boxShadow: '1',
             }}
         >
             <Grid container direction="column" alignItems="center">

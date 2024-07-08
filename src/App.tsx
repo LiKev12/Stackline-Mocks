@@ -29,7 +29,7 @@ function App() {
                     <CircularProgress />
                 </Box>
             ) : (
-                <Grid container direction="row" sx={{ backgroundColor: '#f6f8fa' }}>
+                <Grid container direction="row" sx={{ backgroundColor: '#f6f8fa', paddingBottom: '64px' }}>
                     <Grid item>
                         <LeftPane
                             imgSrc={sliceDataState.data.image}
